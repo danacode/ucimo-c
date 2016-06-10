@@ -10,7 +10,7 @@ Learn C The Hard Way: http://c.learncodethehardway.org/book/
 
 ## Instalacija
 
-C se već nalazi na svim Unix sistemima (Linux i OS X).
+`C` se već nalazi na svim Unix sistemima (Linux i OS X).
 
 ## Prost primer
 
@@ -54,18 +54,18 @@ Prevodiocu možete proslediti argument `-o` sa imenom izlaznog fajla:
 gcc -o zdravo zdravo.c
 ```
 
-### make (GNU make utility to maintain groups of programs)
+### make (utility to maintain groups of programs)
 
 Komanda `make` od fajla `zdravo.c` pravi izvršni fajl `zdravo`:
 ```
 make zdravo
 ```
 
-U pozadini, make zapravo radi:
+U pozadini, `make` zapravo radi:
 ```
 cc zdravo.c -o zdravo
 ```
 
 ## IDE
 
-Instaliraj [Code::Blocks](http://www.codeblocks.org/) za jednostavno kompajliranje i pokretanje C fajlova
+Možeš instalirati [Code::Blocks](http://www.codeblocks.org/) za jednostavno kompajliranje i pokretanje C fajlova.
