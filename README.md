@@ -28,6 +28,8 @@ printf("Zdravo %s Svete\n", "Predivni");
 
 ## Kompajliranje
 
+### GCC (the GNU Compiler Collection)
+
 GNU C prevodilac pokrećemo `gcc` komandom:
 ```
 gcc zdravo.c
@@ -44,5 +46,13 @@ gcc -o zdravo zdravo.c
 ```
 Nakon toga, u direktorijumu se pojavljuje izvršni fajl `zdravo` koji pokrećemo na sledeći način:
 ```
+./zdravo
+```
+
+### make (GNU make utility to maintain groups of programs)
+
+Komanda `make` od fajla `zdravo.c` pravi izvršni fajl `zdravo`, koji se potom pokreće iz konzole:
+```
+make zdravo
 ./zdravo
 ```
