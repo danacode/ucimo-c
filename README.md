@@ -1,8 +1,11 @@
 # Učimo C
 
 Uvodni tutorijal: http://poincare.matf.bg.ac.rs/~jelenagr/op/cc1.htm
+
 Rešeni primeri i zadaci: http://www.its.edu.rs/ITS-Reseni-primeri-iz-programskog-jezika-C_799
+
 Literatura na srpskom: http://tutoriali.org/C.html
+
 Learn C The Hard Way: http://c.learncodethehardway.org/book/
 
 ## Instalacija
