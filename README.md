@@ -7,7 +7,7 @@
 
 ## Instalacija
 
-`C` se već nalazi na svim Unix sistemima (`Linux` i `OS X`).
+`C` se već nalazi na svim Unix sistemima (Linux i OS X).
 
 ## Prost primer
 
@@ -23,7 +23,7 @@ void main() {
 
 ## Kompajliranje
 
-Na Unix sistemima ima nekoliko prevodilaca za `C`.
+Na Unix sistemima ima nekoliko prevodilaca za `C`, te kompajlirati možemo na razne načine.
 
 ### CC
 
