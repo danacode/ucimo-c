@@ -12,18 +12,32 @@ Napravi fajl `zdravo.c ` sledeće sadržine:
 #include<stdio.h>
 
 int main() {
-  printf("Zdravo %s Svete\n", "dobri");
+  printf("Zdravo Svete");
 }
+```
+
+Print liniju možeš malo izmeniti:
+```c
+printf("Zdravo %s Svete\n", "Predivni");
 ```
 
 ## Kompajliranje
 
-C kompajler pokrećemo `gcc` komandom:
-```shell
+GNU C prevodilac pokrećemo `gcc` komandom:
+```
 gcc zdravo.c
 ```
 
 Nakon toga, u direktorijumu se pojavljuje izvršni fajl `a.out` koji pokrećemo na sledeći način:
-```sh
+```
 ./a.out
+```
+
+Prevodiocu možete proslediti argument `-o` sa imenom izvršnog programa:
+```
+gcc -o zdravo zdravo.c
+```
+Nakon toga, u direktorijumu se pojavljuje izvršni fajl `zdravo` koji pokrećemo na sledeći način:
+```
+./zdravo
 ```
