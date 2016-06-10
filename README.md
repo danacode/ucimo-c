@@ -28,6 +28,17 @@ printf("Zdravo %s Svete\n", "Predivni");
 
 ## Kompajliranje
 
+### CC (C Compiler)
+C kompajleru prosleđujemo izvorni fajl i izlaz:
+```
+cc zdravo.c -o zdravo
+```
+
+Nakon toga, u direktorijumu se pojavljuje izvršni fajl `zdravo` koji pokrećemo iz konzole:
+```
+./zdravo
+```
+
 ### GCC (the GNU Compiler Collection)
 
 GNU C prevodilac pokrećemo `gcc` komandom:
@@ -35,24 +46,24 @@ GNU C prevodilac pokrećemo `gcc` komandom:
 gcc zdravo.c
 ```
 
-Nakon toga, u direktorijumu se pojavljuje izvršni fajl `a.out` koji pokrećemo na sledeći način:
+Ukoliko je bez argumenata, u direktorijumu se pojavljuje izvršni fajl `a.out` koji pokrećemo na sledeći način:
 ```
 ./a.out
 ```
 
-Prevodiocu možete proslediti argument `-o` sa imenom izvršnog programa:
+Prevodiocu možete proslediti argument `-o` sa imenom izlaznog fajla:
 ```
 gcc -o zdravo zdravo.c
-```
-Nakon toga, u direktorijumu se pojavljuje izvršni fajl `zdravo` koji pokrećemo na sledeći način:
-```
-./zdravo
 ```
 
 ### make (GNU make utility to maintain groups of programs)
 
-Komanda `make` od fajla `zdravo.c` pravi izvršni fajl `zdravo`, koji se potom pokreće iz konzole:
+Komanda `make` od fajla `zdravo.c` pravi izvršni fajl `zdravo`:
 ```
 make zdravo
-./zdravo
+```
+
+U pozadini, make zapravo radi:
+```
+cc zdravo.c -o zdravo
 ```
