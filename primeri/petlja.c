@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 void main() {
-    /* idemo */
     printf("Zdravo druze! \n");
 
     int i;
