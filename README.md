@@ -10,7 +10,7 @@ Learn C The Hard Way: http://c.learncodethehardway.org/book/
 
 ## Instalacija
 
-C se već nalazi na svim Unix sistemima (Linux i OS X). 
+C se već nalazi na svim Unix sistemima (Linux i OS X).
 
 ## Prost primer
 
@@ -22,11 +22,6 @@ Napravi fajl `zdravo.c ` sledeće sadržine:
 void main() {
   printf("Zdravo Svete");
 }
-```
-
-Print liniju možeš malo izmeniti:
-```c
-printf("Zdravo %s Svete\n", "Predivni");
 ```
 
 ## Kompajliranje
