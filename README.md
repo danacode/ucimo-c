@@ -10,7 +10,7 @@ Learn C The Hard Way: http://c.learncodethehardway.org/book/
 
 ## Instalacija
 
-Instaliraj [Code::Blocks](http://www.codeblocks.org/) IDE za jednostavno kompajliranje i pokretanje C fajlova
+C se već nalazi na svim Unix sistemima (Linux i OS X). 
 
 ## Prost primer
 
@@ -70,3 +70,7 @@ U pozadini, make zapravo radi:
 ```
 cc zdravo.c -o zdravo
 ```
+
+## IDE
+
+Instaliraj [Code::Blocks](http://www.codeblocks.org/) za jednostavno kompajliranje i pokretanje C fajlova
