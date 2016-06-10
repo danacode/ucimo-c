@@ -1,4 +1,4 @@
-# ucimo-c
+# Učimo C
 
 ## Instalacija
 
