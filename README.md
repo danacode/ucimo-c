@@ -1,16 +1,13 @@
 # Učimo C
 
-Uvodni tutorijal: http://poincare.matf.bg.ac.rs/~jelenagr/op/cc1.htm
-
-Rešeni primeri i zadaci: http://www.its.edu.rs/ITS-Reseni-primeri-iz-programskog-jezika-C_799
-
-Literatura na srpskom: http://tutoriali.org/C.html
-
-Learn C The Hard Way: http://c.learncodethehardway.org/book/
+* [Uvodni tutorijal](http://poincare.matf.bg.ac.rs/~jelenagr/op/cc1.htm)
+* [Rešeni primeri i zadaci](http://www.its.edu.rs/ITS-Reseni-primeri-iz-programskog-jezika-C_799)
+* [Literatura na srpskom](http://tutoriali.org/C.html)
+* [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
 
 ## Instalacija
 
-`C` se već nalazi na svim Unix sistemima (Linux i OS X).
+`C` se već nalazi na svim Unix sistemima (`Linux` i `OS X`).
 
 ## Prost primer
 
@@ -26,7 +23,10 @@ void main() {
 
 ## Kompajliranje
 
-### CC (C Compiler)
+Na Unix sistemima ima nekoliko prevodilaca za `C`.
+
+### CC
+
 C kompajleru prosleđujemo izvorni fajl i izlaz:
 ```
 cc zdravo.c -o zdravo
@@ -37,7 +37,7 @@ Nakon toga, u direktorijumu se pojavljuje izvršni fajl `zdravo` koji pokrećemo
 ./zdravo
 ```
 
-### GCC (the GNU Compiler Collection)
+### GCC
 
 GNU C prevodilac pokrećemo `gcc` komandom:
 ```
@@ -54,9 +54,9 @@ Prevodiocu možete proslediti argument `-o` sa imenom izlaznog fajla:
 gcc -o zdravo zdravo.c
 ```
 
-### make (utility to maintain groups of programs)
+### make
 
-Komanda `make` od fajla `zdravo.c` pravi izvršni fajl `zdravo`:
+Komanda `make` od fajla `zdravo.c` automatski pravi izvršni fajl `zdravo`:
 ```
 make zdravo
 ```
