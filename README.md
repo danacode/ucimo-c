@@ -1,5 +1,8 @@
 # Učimo C
 
+Uvodni tutorijal: http://poincare.matf.bg.ac.rs/~jelenagr/op/cc1.htm
+Rešeni primeri i zadaci: http://www.its.edu.rs/ITS-Reseni-primeri-iz-programskog-jezika-C_799
+
 ## Instalacija
 
 Instaliraj [Code::Blocks](http://www.codeblocks.org/) IDE za jednostavno kompajliranje i pokretanje C fajlova
@@ -11,7 +14,7 @@ Napravi fajl `zdravo.c ` sledeće sadržine:
 ```c
 #include<stdio.h>
 
-int main() {
+void main() {
   printf("Zdravo Svete");
 }
 ```
