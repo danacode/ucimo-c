@@ -1,35 +1,42 @@
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
-  // create two array we carre about
+  // pravi niz godina i niz imena
   int ages[] = {23, 43, 12, 89, 2};
   char *names[] = {
     "Alan", "Frank", "Mary", "John", "Lisa"
   };
 
-  // safely get the size of ages
+  // racuna duzinu niza, podelom velicine niza sa velicinom clana
   int count = sizeof(ages) / sizeof(int);
   int i = 0;
 
-  // first way using indexing
+  // prvi način: štampa vrednosti nizova koristeći index
   for(i = 0; i < count; i++) {
     printf("%s has %d years alive.\n", names[i], ages[i]);
   }
 
   printf("---\n");
 
-  // setup the pointers to the start of the arrays
+  // postavlja pokazivače na početak nizova
   int *cur_age = ages;
   char **cur_name = names;
 
-  // second way using pointers
+  // štampa lokaciju i vrednost pokazivača (tj. lokaciju pokazanog)
+  printf("%p\n", cur_age);
+  printf("%p\n", &cur_age);
+  printf("%d\n", *cur_age); // štampa vrednost pokazanog
+  printf("%d\n", *(cur_age + 1)); // štampa vrednost nakon pokazanog
+  printf("---\n");
+
+  // drugi način: štampa vrednosti nizova koristeći pokazivače
   for(i = 0; i < count; i++) {
     printf("%s is %d years old.\n", *(cur_name+i), *(cur_age+i));
   }
 
   printf("---\n");
 
-  // third way, pointers are just arrays
+  // treći način: pokazivači su samo nizovi
   for (i = 0; i < count; i++) {
     printf("%s is %d years old again.\n", cur_name[i], cur_age[i]);
   }
