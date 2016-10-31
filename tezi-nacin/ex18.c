@@ -41,7 +41,6 @@ typedef int (*compare_cb)(int a, int b);
        }
      }
    }
-
    return target;
  }
 
@@ -64,22 +63,17 @@ int strange_order(int a, int b)
   }
 }
 
-/**
- * Used to test that we are sorting things correctly
- * by doing the sort and printing it out.
- */
+// test that we are sorting things correctly by doing the sort and printing it out
  void test_sorting(int *numbers, int count, compare_cb cmp)
  {
    int i = 0;
    int *sorted = bubble_sort(numbers, count, cmp);
-
    if(!sorted) die("Failed to sort as requested.");
 
    for(i = 0; i < count; i++) {
      printf("%d ", sorted[i]);
    }
    printf("\n");
-
    free(sorted);
  }
 
@@ -106,6 +100,5 @@ int main(int argc, char *argv[])
   test_sorting(numbers, count, strange_order);
 
   free(numbers);
-
   return 0;
 }
