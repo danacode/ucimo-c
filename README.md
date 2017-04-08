@@ -9,18 +9,6 @@
 
 `C` se već nalazi na svim Unix sistemima (Linux i OS X).
 
-## Prost primer
-
-Napravi fajl `zdravo.c ` sledeće sadržine:
-
-```c
-#include<stdio.h>
-
-void main() {
-  printf("Zdravo Svete");
-}
-```
-
 ## Kompajliranje
 
 Na Unix sistemima ima nekoliko prevodilaca za `C`, te kompajlirati možemo na razne načine.
