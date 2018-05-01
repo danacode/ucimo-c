@@ -1,9 +1,13 @@
 # Učimo C
 
+Učimo programski jezik C. Korisni tutorijali:
+
 * [Uvodni tutorijal](http://poincare.matf.bg.ac.rs/~jelenagr/op/cc1.htm)
 * [Rešeni primeri i zadaci](http://www.its.edu.rs/ITS-Reseni-primeri-iz-programskog-jezika-C_799)
 * [Literatura na srpskom](http://tutoriali.org/C.html)
 * [Learn C The Hard Way](https://wizardforcel.gitbooks.io/lcthw-en/content/)
+
+Vidi takođe [Učimo C++](https://github.com/skolakoda/ucimo-cpp) i [Učimo OpenGL](https://github.com/skolakoda/ucimo-opengl).
 
 ## Instalacija
 
