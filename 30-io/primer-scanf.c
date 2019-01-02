@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main( ) {
+int main() {
 
-   char str[100];
-   int i;
+   char rec[100];
+   int broj;
 
-   printf("Unesi prvo tekst pa broj: ");
-   scanf("%s %d", str, &i);
+   printf("Unesi prvo rec pa broj: ");
+   scanf("%s %d", rec, &broj);  // pamti samo do prvog razmaka
 
-   printf("Uneo si: %s i %d \n", str, i);
+   printf("Uneo si: %s i %d \n", rec, broj);
 
    return 0;
 }
